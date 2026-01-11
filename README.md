@@ -10,4 +10,3 @@ A proposta é criar um ambiente acessível, acolhedor e prático, aproximando au
 
 
 🔗 [Acesse Rasyon](https://rasyonheneyah.github.io/apologetica/)
-
