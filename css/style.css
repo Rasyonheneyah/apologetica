@@ -295,7 +295,7 @@ ul.abas-lista{
     line-height: 1.7;
 }
 
-ul#sobrelista li a {
+ul li a {
     text-decoration: none;
     color: #C9A44C;
 }
