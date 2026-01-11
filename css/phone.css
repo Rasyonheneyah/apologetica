@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+
+    
+
+    /* navegação */
+    nav {
+        flex-direction: column;
+        gap: 1.2rem;
+        text-align: center;
+    }
+
+    a#hamburguer {
+        font-size: 25px;
+        display: flex;
+        
+        width: 50px;
+        margin: auto;
+        cursor: pointer;
+
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    div#menu{
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navlinks {
+        font-size: 1.1rem;
+    }
+
+    /* títulos */
+    h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    /* textos longos (artigos) */
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    section {
+        padding: 25px 15px;
+        margin-bottom: 25px;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section h3 {
+        font-size: 1.25rem;
+    }
+
+    section p, section li {
+        font-size: 0.95rem;
+    }
+
+
+    /* imagens */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    footer {
+        display: block;
+    }
+
+    .artigos-destaque {
+        padding: 25px 15px;
+    }
+
+    .artigos-destaque h2 {
+        font-size: 1.8rem;
+    }
+
+    .artigo-conteudo h3 {
+        font-size: 1.2rem;
+    }
+
+    .artigo-conteudo p {
+        font-size: 0.95rem;
+    }
+
+    
+}
+
+

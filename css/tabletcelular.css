@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* Tablet e Mobile: empilha imagem, título e texto */
+@media (max-width: 1024px) {
+    .artigos-lista article {
+        flex-direction: column; /* empilha verticalmente */
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Mantém título primeiro */
+    .artigo-conteudo {
+        order: 0;
+    }
+
+    .artigos-lista article img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px 0; /* separação entre título e imagem e texto */
+        order: 1; /* imagem fica depois do título */
+    }
+
+    .artigo-conteudo p {
+        order: 2; /* descrição fica por último */
+    }
+
+    .artigo-conteudo h3 {
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+    }
+
+    .artigo-conteudo p {
+        font-size: 0.98rem;
+    }
+}
+
