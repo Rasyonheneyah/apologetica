@@ -160,6 +160,8 @@ section {
     margin-bottom: 35px;
     border-left: 4px solid #C9A44C;
     padding: 50px;
+
+    border-radius: 0px 10px 10px 0px;
 }
 
 /* Títulos principais de seção */
