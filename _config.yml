@@ -1,0 +1,17 @@
+title: Apologética Protestante
+description: Defesa bíblica, histórica e racional da fé cristã
+url: https://rasyon.site
+lang: pt-BR
+
+markdown: kramdown
+theme: null
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /imgs/posts/SolaScripturaLOGO.png
+
+permalink: /artigos/:title/

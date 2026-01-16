@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Básico -->
+    <meta name="description" content="{{ page.description | default: 'Apologética Protestante — escritos acerca da Bíblia.' }}">
+    <meta name="keywords"
+        content="Rasyon, escritos cristãos, apologética protestante, histórias cristãs, poemas cristãos, reflexões bíblicas, Bíblia">
+    <meta name="author" content="Rasyon Heneyah">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical REAL -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Apologética Protestante">
+    <meta property="og:title" content="{{ page.title | default: 'Apologética Protestante' }}">
+    <meta property="og:description"
+        content="{{ page.description | default: 'Site dedicado à apologética protestante: defesa da fé cristã bíblica.' }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    <meta property="og:image:alt" content="{{ page.title }}">
+
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Título dinâmico -->
+    <title>{{ page.title | default: 'Apologética Protestante' }}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/phone.css">
+    <link rel="stylesheet" href="/css/tablet.css">
+    <link rel="stylesheet" href="/css/tabletcelular.css">
+
+    <!-- Ícone -->
+    <link rel="shortcut icon" href="/imgs/SolaScriptura_icones.ico" type="image/x-icon">
+
+    <!-- JS -->
+    <script src="/js/script.js" defer></script>
+
+    <!-- Google -->
+    <meta name="google-site-verification" content="jIRW0yW9VdWIWSblIryfPqBMf1OSWYlL8vIBJW1SXCY" />
+    <meta name="google-adsense-account" content="ca-pub-2907072512188971">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2907072512188971"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Apologética Protestante</h1>
+        <p class="subtitulo">
+            Defesa bíblica, histórica e racional da fé cristã
+        </p>
+    </header>
+
+    <nav>
+        <a id="hamburguer" onclick="toggleDiv(`#menu`, event)">☰</a>
+
+        <div id="menu">
+            <a href="/index.html"><span class="navlinks">Início</span></a>
+            <a href="/artigos/"><span class="navlinks">Artigos</span></a>
+            <a href="#"><span class="navlinks">Doutrinas</span></a>
+            <a href="#"><span class="navlinks">Refutações</span></a>
+            <a href="/sobre.html"><span class="navlinks">Sobre</span></a>
+        </div>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; <span id="anoAtual"></span> — Apologética Protestante</p>
+        <p>“Santificai a Cristo como Senhor em vossos corações,
+            estando sempre preparados para responder.” <br>
+            1Pe 3:15</p>
+    </footer>
+
+</body>
+</html>

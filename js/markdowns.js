@@ -20,14 +20,19 @@ document.addEventListener('DOMContentLoaded', () => {
       return `<p class="citacao">${aplicarMarkdown(texto.slice(1).trim())}</p>`;
     }
 
+
+    // Mini-Subtítulo (##)
+    if (texto.startsWith('###')) {
+      return `<h3>${aplicarMarkdown(texto.slice(2).trim())}</h3>`;
+    }
     // Subtítulo (##)
     if (texto.startsWith('##')) {
-      return `<h3>${aplicarMarkdown(texto.slice(2).trim())}</h3>`;
+      return `<h2>${aplicarMarkdown(texto.slice(2).trim())}</h2>`;
     }
 
     // Título (#)
     if (texto.startsWith('#')) {
-      return `<h2>${aplicarMarkdown(texto.slice(1).trim())}</h2>`;
+      return `<h1>${aplicarMarkdown(texto.slice(1).trim())}</h1>`;
     }
 
     // Parágrafo normal
