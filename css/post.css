@@ -1,1 +1,142 @@
 @charset "UTF-8";
+/* ==========================
+   MAIN / CONTEÚDO DOS POSTS
+========================== */
+main#conteudo-cru {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    color: #EAEAEA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Títulos Markdown */
+main h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #C9A44C;
+    margin: 1.5rem 0 1rem 0;
+    text-shadow: 1px 1px 5px rgba(255,255,255,0.2);
+}
+
+main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #C9A44C;
+    margin: 1.2rem 0 0.8rem 0;
+}
+
+main h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #C9A44C;
+    margin: 1rem 0 0.6rem 0;
+}
+
+/* Parágrafos Markdown */
+main p {
+    font-size: 1rem;
+    line-height: 2em;
+    margin-bottom: 1rem;
+    color: #EAEAEA;
+    text-align: justify;
+}
+
+/* Listas */
+main ul,
+main ol {
+    margin: 1rem 0 1rem 2rem;
+}
+
+main li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links */
+main a {
+    color: #7FAFCF;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+main a:hover {
+    color: #C9A44C;
+}
+
+/* Blockquotes */
+main blockquote {
+    border-left: 4px solid #7FAFCF;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #B0BCC2;
+    font-style: italic;
+    background-color: #142B3B;
+    border-radius: 4px;
+}
+
+/* Imagens */
+main img {
+    max-width: 100%;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+/* ==========================
+   CITAÇÕES PERSONALIZADAS
+========================== */
+p.citacao {
+    border-left: 4px solid #FF4500;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #F5B7B1;
+    font-style: italic;
+    background-color: #1E3A4C;
+    border-radius: 4px;
+}
+
+p.referencia {
+    border-left: 4px solid #2E8B57;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #A9DFBF;
+    font-style: italic;
+    background-color: #1E3A4C;
+    border-radius: 4px;
+}
+
+/* ==========================
+   RESPONSIVIDADE
+========================== */
+@media (max-width: 768px) {
+    main#conteudo-cru {
+        margin: 30px 15px;
+        padding: 0 15px;
+    }
+
+    main h1 {
+        font-size: 1.8rem;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+    main h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    main h2 {
+        font-size: 1.3rem;
+    }
+
+    main h3 {
+        font-size: 1.1rem;
+    }
+}
