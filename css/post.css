@@ -131,10 +131,7 @@ p.referencia {
    RESPONSIVIDADE
 ========================== */
 @media (max-width: 768px) {
-    main#conteudo-cru {
-        margin: 40px 15px;
-        padding: 0 15px;
-    }
+    
 
     main h1 { font-size: 2rem; }
     main h2 { font-size: 1.7rem; }
