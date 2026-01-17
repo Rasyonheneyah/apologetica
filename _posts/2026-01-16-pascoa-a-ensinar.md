@@ -7,7 +7,7 @@ date: 2026-01-17
 author: Rasyon Heneyah
 categories: [artigos, datas]
 tags: [páscoa, ceia, cordero, jesus, bíblia, estudo]
-permalink: /artigos/pascoa-ensinamentos/
+permalink: /artigos/pascoa-a-ensinar/
 ---
 
 # O que a Páscoa tem a nos ensinar?
@@ -48,3 +48,8 @@ permalink: /artigos/pascoa-ensinamentos/
 > Quando segurava o pão, e o cálice, nosso Mestre nos alertou, para que façamos em memória dEle. Nós precisamos nos atentarmos para O colocar no centro de nossas vidas sempre, pois muitas vezes o mundo nos apresenta muitas distrações para desviar nossos olhos da cruz, da nossa própria cruz e da cruz de Cristo. Portanto, que ofereçamos nossa vida em sacrifício vivo, santo e agradável à Deus, que pagou por nós um preço imensurável que jamais poderíamos retribuir. Graça e paz à todos que leram até o final, feliz Páscoa!
 
 -# 1 Co 11.24-25; 1 Pe 2.4-7; Lc 9.23; Rm 12.1;
+
+
+<span class="autor-artigo">Autor {{ post.author }}.</span>
+
+---
