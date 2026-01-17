@@ -5,7 +5,7 @@ description: "Estudo bíblico sobre o significado da Páscoa, sua conexão com a
 image: /artigos/imgs/artecruzdecristo.jpg
 date: 2026-01-17
 author: Rasyon Heneyah
-categories: [artigos, datas]
+categories: [artigos, datas, destaques]
 tags: [páscoa, ceia, cordero, jesus, bíblia, estudo]
 permalink: /artigos/pascoa-a-ensinar/
 ---
