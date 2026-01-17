@@ -106,6 +106,22 @@
                 Conteúdos relacionados a datas cristãs e seus significados bíblicos e históricos,
                 como Páscoa, Natal e outros marcos da fé cristã.
             </p>
+
+            {% for post in site.posts %}
+                {% if post.categories contains "artigos" and post.categories contains "datas" %}
+                    <a href="{{ post.permalink }}">
+                    <article>
+                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                        <h3>{{ post.title }}</h3>
+                        <em class="autor-artigo">{{ post.author }}</em>
+                        <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                    </a>
+                {% endif %}
+            {% endfor %}
+
         </section>
 
         <section class="categoria-artigos">
