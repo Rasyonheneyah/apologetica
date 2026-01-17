@@ -297,6 +297,13 @@ ul.abas-lista{
     line-height: 1.7;
 }
 
+.autor-artigo {
+    color: #6f6f6f;        /* cinza discreto e elegante */
+    font-size: 0.9rem;    /* um pouco menor que o texto normal */
+    font-style: normal;  /* mantém leitura limpa */
+}
+
+
 ul li a {
     text-decoration: none;
     color: #C9A44C;
