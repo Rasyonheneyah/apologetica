@@ -80,28 +80,26 @@
             {{ content }}
 
             <br>
-            
-            {% if page.comments != false %}
-            <div id="disqus_thread"></div>
+             
+            <div class="giscus">
 
-            <script>
-            var disqus_config = function () {
-                this.page.url = "{{ site.url }}{{ page.url }}";      // URL completa do post
-                this.page.identifier = "{{ page.id | default: page.url }}"; // Identificador único
-            };
-            (function() {
-                var d = document, s = d.createElement('script');
-                s.src = 'https://rasyon-site.disqus.com/embed.js';  // Coloque seu "shortname" do Disqus
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
+            </div>
+
+            <script src="https://giscus.app/client.js"
+                data-repo="rasyonheneyah/comentarios"
+                data-repo-id="R_kgDOQ7qotA"
+                data-category="Ideas"
+                data-category-id="DIC_kwDOQ7qotM4C1Eqi"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="dark"
+                data-lang="pt"
+                crossorigin="anonymous"
+                async>
             </script>
-
-            <noscript>
-            Please enable JavaScript to view the 
-            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-            </noscript>
-            {% endif %}
 
         </section>
 
