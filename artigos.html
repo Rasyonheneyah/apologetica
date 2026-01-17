@@ -108,7 +108,8 @@
             </p>
 
             {% for post in site.posts %}
-                {% if post.categories | join: ',' | contains: 'artigos' and post.categories | join: ',' | contains: 'datas' %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "datas" %}
                     <a href="{{ post.permalink }}">
                     <article>
                         <img src="{{ post.image }}" alt="{{ post.title }}">
@@ -121,6 +122,7 @@
                     </a>
                 {% endif %}
             {% endfor %}
+
 
 
 
