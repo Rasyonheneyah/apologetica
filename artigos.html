@@ -108,19 +108,22 @@
             </p>
 
             {% for post in site.posts %}
-                {% if post.categories contains "artigos" and post.categories contains "datas" %}
+                {% if post.categories contains "artigos" %}
+                    {% if post.categories contains "datas" %}
                     <a href="{{ post.permalink }}">
-                    <article>
+                        <article>
                         <img src="{{ post.image }}" alt="{{ post.title }}">
                         <div class="artigo-conteudo">
-                        <h3>{{ post.title }}</h3>
-                        <em class="autor-artigo">{{ post.author }}</em>
-                        <p><em>{{ post.description }}</em></p>
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
                         </div>
-                    </article>
+                        </article>
                     </a>
+                    {% endif %}
                 {% endif %}
             {% endfor %}
+
 
         </section>
 
