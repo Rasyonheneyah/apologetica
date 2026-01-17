@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -80,6 +82,21 @@
         <section class="categoria-doutrinas">
             <h2>Cristo</h2>
             <p>Estudos sobre a pessoa e obra de Jesus Cristo: encarnação, ministério, salvação e redenção.</p>
+            {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "datas" %}
+                    <a href="{{ post.url | relative_url }}">
+                        <article>
+                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                            <div class="artigo-conteudo">
+                                <h3>{{ post.title }}</h3>
+                                <em class="autor-artigo">{{ post.author }}</em>
+                                <p><em>{{ post.description }}</em></p>
+                            </div>
+                        </article>
+                    </a>
+                {% endif %}
+            {% endfor %}
         </section>
 
         <section class="categoria-doutrinas">
