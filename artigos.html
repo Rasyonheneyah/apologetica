@@ -1,7 +1,3 @@
----
-layout: post
-title: artigos
----
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -111,21 +107,23 @@ title: artigos
                 como Páscoa, Natal e outros marcos da fé cristã.
             </p>
 
-            {% for post in site.posts %}
-                {% assign cats = post.categories %}
-                {% if cats contains "artigos" and cats contains "datas" %}
-                    <a href="{{ post.url | relative_url }}">
-                        <article>
-                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-                            <div class="artigo-conteudo">
-                                <h3>{{ post.title }}</h3>
-                                <em class="autor-artigo">{{ post.author }}</em>
-                                <p><em>{{ post.description }}</em></p>
-                            </div>
-                        </article>
-                    </a>
-                {% endif %}
-            {% endfor %}
+            <div class="artigos-lista">
+                {% for post in site.posts %}
+                    {% assign cats = post.categories %}
+                    {% if cats contains "artigos" and cats contains "datas" %}
+                        <a href="{{ post.url | relative_url }}">
+                            <article>
+                                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                                <div class="artigo-conteudo">
+                                    <h3>{{ post.title }}</h3>
+                                    <em class="autor-artigo">{{ post.author }}</em>
+                                    <p><em>{{ post.description }}</em></p>
+                                </div>
+                            </article>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
 
 
 
