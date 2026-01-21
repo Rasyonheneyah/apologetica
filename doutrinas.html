@@ -1,3 +1,6 @@
+---
+permalink: /doutrinas.html
+---
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -8,8 +11,7 @@
     <!-- SEO Básico -->
     <meta name="description"
         content="Seção de doutrinas do protestantismo — estudos bíblicos e teológicos fundamentados na fé cristã.">
-    <meta name="keywords"
-        content="doutrinas cristãs, protestantismo, teologia, apologética, estudos bíblicos">
+    <meta name="keywords" content="doutrinas cristãs, protestantismo, teologia, apologética, estudos bíblicos">
     <meta name="author" content="Rasyon Heneyah">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://apologetica.rasyon.site/doutrinas.html">
@@ -75,53 +77,157 @@
             </p>
         </section>
 
-     <!-- CATEGORIAS DE DOUTRINAS -->
+        <!-- CATEGORIAS DE DOUTRINAS -->
 
         <section class="categoria-doutrinas">
             <h2>Cristo</h2>
             <p>Estudos sobre a pessoa e obra de Jesus Cristo: encarnação, ministério, salvação e redenção.</p>
-            {% for post in site.posts %}
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
                 {% assign cats = post.categories %}
-                {% if cats contains "artigos" and cats contains "datas" %}
-                    <a href="{{ post.url | relative_url }}">
-                        <article>
-                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-                            <div class="artigo-conteudo">
-                                <h3>{{ post.title }}</h3>
-                                <em class="autor-artigo">{{ post.author }}</em>
-                                <p><em>{{ post.description }}</em></p>
-                            </div>
-                        </article>
-                    </a>
+                {% if cats contains "doutrinas" and cats contains "cristo" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <section class="categoria-doutrinas">
             <h2>Fundamentos</h2>
             <p>Princípios centrais da fé protestante: Sola Scriptura, Sola Fide, Trindade, sacramentos e Igreja.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "doutrinas" and cats contains "fundamentos" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <section class="categoria-doutrinas">
             <h2>Soteriologia</h2>
-            <p>Estudos sobre a obra redentora de Cristo, a justificação pela fé, a regeneração, santificação e a segurança do crente à luz das Escrituras.</p>
+            <p>Estudos sobre a obra redentora de Cristo, a justificação pela fé, a regeneração, santificação e a
+                segurança do crente à luz das Escrituras.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "doutrinas" and cats contains "soteriologia" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
 
         <section class="categoria-doutrinas">
             <h2>Escatologia</h2>
             <p>Reflexões sobre o fim dos tempos, ressurreição, juízo final e esperança cristã.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "doutrinas" and cats contains "escatologia" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <section class="categoria-doutrinas">
             <h2>Outros</h2>
             <p>Temas variados.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "doutrinas" and cats contains "outros" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <!-- AVISO -->
         <section class="aviso-doutrinas">
             <p>
-                As doutrinas estão em constante desenvolvimento. Novos conteúdos e estudos serão adicionados regularmente.
+                As doutrinas estão em constante desenvolvimento. Novos conteúdos e estudos serão adicionados
+                regularmente.
             </p>
         </section>
 

@@ -85,6 +85,29 @@ permalink: /artigos.html
                 Estudos diretamente relacionados aos textos bíblicos, seus significados,
                 contextos, temas centrais e ensinamentos.
             </p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "biblia" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <section class="categoria-artigos">
@@ -93,6 +116,29 @@ permalink: /artigos.html
                 Artigos sobre o contexto histórico do cristianismo, eventos importantes,
                 desenvolvimento da Igreja e formação do pensamento cristão.
             </p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "historia" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <section class="categoria-artigos">
@@ -101,6 +147,29 @@ permalink: /artigos.html
                 Reflexões teológicas sobre conceitos bíblicos, temas centrais da fé cristã
                 e suas implicações doutrinárias e práticas.
             </p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "teologia" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <section class="categoria-artigos">
@@ -110,22 +179,31 @@ permalink: /artigos.html
                 como Páscoa, Natal e outros marcos da fé cristã.
             </p>
 
+
             <div class="artigos-lista">
+                {% assign encontrou = false %}
+
                 {% for post in site.posts %}
-                    {% assign cats = post.categories %}
-                    {% if cats contains "artigos" and cats contains "datas" %}
-                        <a href="{{ post.url | relative_url }}">
-                            <article>
-                                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-                                <div class="artigo-conteudo">
-                                    <h3>{{ post.title }}</h3>
-                                    <em class="autor-artigo">{{ post.author }}</em>
-                                    <p><em>{{ post.description }}</em></p>
-                                </div>
-                            </article>
-                        </a>
-                    {% endif %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "datas" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
                 {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
             </div>
 
 
@@ -139,6 +217,31 @@ permalink: /artigos.html
                 Materiais voltados ao aprofundamento pessoal, métodos de estudo bíblico,
                 análise de textos e auxílio ao aprendizado cristão.
             </p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "artigos" and cats contains "estudos" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+            </div>
+
         </section>
 
         <!-- AVISO -->

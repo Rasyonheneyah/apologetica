@@ -1,3 +1,6 @@
+---
+permalink: /refutacoes.html
+---
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -78,26 +81,181 @@
         <section class="categoria-refutacoes">
             <h2>Anti-Catolicismo</h2>
             <p>Análises críticas das doutrinas, práticas e interpretações da Igreja Católica à luz da Bíblia.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "refutacoes" and cats contains "anticatolicismo" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
+            </div>
         </section>
 
         <section class="categoria-refutacoes">
             <h2>Anti-Ateísmo</h2>
             <p>Respostas a argumentos ateus e análises sobre críticas à fé cristã.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "refutacoes" and cats contains "antiateismo" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
+            </div>
         </section>
 
         <section class="categoria-refutacoes">
             <h2>Anti-Judaísmo</h2>
             <p>Estudos e respostas sobre distorções ou interpretações divergentes do judaísmo em relação à fé cristã.</p>
+                        <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "refutacoes" and cats contains "antijudaismo" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
+            </div>
         </section>
 
         <section class="categoria-refutacoes">
             <h2>Anti-Islamismo</h2>
             <p>Refutações a doutrinas, crenças e práticas do Islã, analisadas à luz das Escrituras cristãs.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "refutacoes" and cats contains "antiislamismo" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
+            </div>
         </section>
 
         <section class="categoria-refutacoes">
             <h2>Seitas</h2>
             <p>Análises críticas de movimentos sectários e grupos que se desviam dos ensinamentos bíblicos centrais.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "refutacoes" and cats contains "seitas" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
+            </div>            
+        </section>
+
+        <section class="categoria-refutacoes">
+            <h2>Outras</h2>
+            <p>Refutações para outros que não se adequam às outras categorias.</p>
+            <div class="artigos-lista">
+                {% assign encontrou = false %}
+
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "refutacoes" and cats contains "seitas" %}
+                {% assign encontrou = true %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
+                {% endfor %}
+
+                {% unless encontrou %}
+                <p>Não há nenhum artigo publicado nesta categoria no momento. Volte mais tarde!</p>
+                {% endunless %}
+
+            </div>            
         </section>
 
         <!-- AVISO -->
