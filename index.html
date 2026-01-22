@@ -88,6 +88,9 @@ permalink: /
         </div>
     </nav>
 
+
+
+    
     <main>
 
         <section class="apresentacao">
@@ -133,7 +136,6 @@ permalink: /
             <h2>Artigos em Destaque</h2>
             <div class="artigos-lista">
                 
-                <article>
                     {% for post in site.posts %}
                     {% assign cats = post.categories %}
                     {% if cats contains "destaques" %}
