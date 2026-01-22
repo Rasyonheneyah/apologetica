@@ -85,10 +85,10 @@ Qual a definição de Igreja? Vamos olhar na própria Bíblia.
 
 > *" Deus colocou todas as coisas debaixo dos pés dele [Cristo] e o designou cabeça de todas as coisas para a **igreja, a qual é o seu corpo**, a plenitude daquele que enche todas as coisas em tudo."*
 
-- Efésios 1:22-23
+ Efésios 1:22-23
 
 O corpo de Cristo é formado pelo conjunto de salvos em Cristo, de acordo com 1 Coríntios 12:27.
-> "***Ora, vocês são o corpo de Cristo, e cada um de vocês, individualmente, é membro desse corpo.** *"
+> "***Ora, vocês são o corpo de Cristo, e cada um de vocês, individualmente, é membro desse corpo.***"
 
 Todos que possuem fé genuína em Cristo Jesus fazem parte deste corpo, que abrange todos os fiéis no Messias pelo mundo. Portanto nós somos a Igreja de Cristo, o seu Corpo, nós não vamos à igreja, nos reunimos como Igreja. 
 
