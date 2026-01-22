@@ -50,7 +50,7 @@ permalink: /
     <meta name="google-site-verification" content="jIRW0yW9VdWIWSblIryfPqBMf1OSWYlL8vIBJW1SXCY" />
 
     <meta name="google-adsense-account" content="ca-pub-2907072512188971">
-    
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2907072512188971"
         crossorigin="anonymous"></script>
 
@@ -90,7 +90,7 @@ permalink: /
 
 
 
-    
+
     <main>
 
         <section class="apresentacao">
@@ -113,7 +113,7 @@ permalink: /
             </p>
         </section>
 
- 
+
 
         <section class="em-breve">
             <h2>Conteúdo em desenvolvimento</h2>
@@ -128,28 +128,27 @@ permalink: /
 
             <p class="nota">
                 Os artigos ainda não foram publicados. Caso tenha sugestões de artigos, entre em contato.
-                
+
             </p>
         </section>
-        
+
         <section class="artigos-destaque">
             <h2>Artigos em Destaque</h2>
             <div class="artigos-lista">
-                
-                    {% for post in site.posts %}
-                    {% assign cats = post.categories %}
-                    {% if cats contains "destaques" %}
-                        <a href="{{ post.url | relative_url }}">
-                            <article>
-                                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-                                <div class="artigo-conteudo">
-                                    <h3>{{ post.title }}</h3>
-                                    <em class="autor-artigo">{{ post.author }}</em>
-                                    <p><em>{{ post.description }}</em></p>
-                                </div>
-                            </article>
-                        </a>
-                    {% endif %}
+                {% for post in site.posts %}
+                {% assign cats = post.categories %}
+                {% if cats contains "destaques" %}
+                <a href="{{ post.url | relative_url }}">
+                    <article>
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                        <div class="artigo-conteudo">
+                            <h3>{{ post.title }}</h3>
+                            <em class="autor-artigo">{{ post.author }}</em>
+                            <p><em>{{ post.description }}</em></p>
+                        </div>
+                    </article>
+                </a>
+                {% endif %}
                 {% endfor %}
 
 
@@ -161,9 +160,11 @@ permalink: /
 
     <footer>
         <p>&copy; <span id="anoAtual"> </span> — Apologética Protestante</p>
-        <p>“Antes, santifiquem Cristo como Senhor no coração. Estejam sempre preparados para responder a qualquer que lhes pedir a razão da esperança que há em vocês. ” 
+        <p>“Antes, santifiquem Cristo como Senhor no coração. Estejam sempre preparados para responder a qualquer que
+            lhes pedir a razão da esperança que há em vocês. ”
             <br>
-            1Pe 3:15</p>
+            1Pe 3:15
+        </p>
     </footer>
 
 </body>
