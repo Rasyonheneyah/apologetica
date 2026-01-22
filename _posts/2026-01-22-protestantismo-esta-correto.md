@@ -53,7 +53,7 @@ Neste aspecto, o protestantismo acerta em sistematizar doutrinas somente baseand
 
 ### Obras
 
-- ***A salvação vem exclusivamente da fé. As obras são a consequência da salvação, não um requisito dela. Alguém salvo naturalmente fará boas obras, não será salvo por ter feito boas obras, mas por ter fé em Cristo Jesus.***
+-# ***A salvação vem exclusivamente da fé. As obras são a consequência da salvação, não um requisito dela. Alguém salvo naturalmente fará boas obras, não será salvo por ter feito boas obras, mas por ter fé em Cristo Jesus.***
 
 O texto áureo para a Sola Fide encontra-se na carta do apóstolo Paulo à igreja em Éfeso, capítulo 2, versículo 8 e 9.
 
@@ -260,4 +260,4 @@ Há abaixo princípios fundamentais compartilhados entre todos os protestantes.
 
 **30)** Cremos no juízo final, quando Deus julgará tanto os justos quanto os ímpios; os justos para receberem galardão para a vida eterna, e os ímpios para serem condenados.
 
-Obs: Esta confissão de fé comum à todos os protestantes em especial foi retirada do artigo [**"Uma Confissão de Fé comum a todos os protestantes"**](https://www.lucasbanzoli.com/2024/10/uma-confissao-de-fe-comum-todos-os.html?m=1) do autor Lucas Banzoli. Inclusive recomendo a leitura deste artigo dele para vós, e deixo os créditos dele também.
+-+ Obs: Esta confissão de fé comum à todos os protestantes em especial foi retirada do artigo [**"Uma Confissão de Fé comum a todos os protestantes"**](https://www.lucasbanzoli.com/2024/10/uma-confissao-de-fe-comum-todos-os.html?m=1) do autor Lucas Banzoli. Inclusive recomendo a leitura deste artigo dele para vós, e deixo os créditos dele também.
