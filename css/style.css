@@ -267,11 +267,6 @@ ul.abas-lista{
     cursor: pointer;
 }
 
-.artigos-lista, .artigos-lista:hover {
-    border: none;
-    box-shadow: none;
-    
-}
 /* Hover: leve destaque */
 .artigos-lista article:hover {
     transform: translateY(-3px);
