@@ -92,7 +92,7 @@ O corpo de Cristo é formado pelo conjunto de salvos em Cristo, de acordo com 1 
 
 Todos que possuem fé genuína em Cristo Jesus fazem parte deste corpo, que abrange todos os fiéis no Messias pelo mundo. Portanto nós somos a Igreja de Cristo, o seu Corpo, nós não vamos à igreja, nos reunimos como Igreja. 
 
-- # **Nota:** É sempre importante ressaltar, quando falamos que somos Igreja, também é nosso dever como parte do Corpo de Cristo congregar com nossos irmãos, seja em uma igreja, casa, ou o que for. 
+-# **Nota:** É sempre importante ressaltar, quando falamos que somos Igreja, também é nosso dever como parte do Corpo de Cristo congregar com nossos irmãos, seja em uma igreja, casa, ou o que for. 
 
 Quando falamos que o protestantismo está certo, não falamos que especificamente alguma denominação do protestantismo esteja 100% correta, ou que todas estejam 100% corretas, mas sim que o esqueleto do protestantismo, isto é, sua essência comum à todas as denominações protestantes, encontram-se corretas, abordarei esta unidade protestante mais à frente.
 
