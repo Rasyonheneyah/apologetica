@@ -77,6 +77,10 @@
 
     <main id="conteudo-cru">
         <section>
+             <h1>{{ post.title }}</h1>
+             <em class="autor-artigo">{{ post.author }}</em>
+             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            <p><em>{{ post.description }}</em></p>
             {{ content }}
 
             <br>
