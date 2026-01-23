@@ -34,7 +34,7 @@ Não há necessariamente um consenso universal entre os católicos romanos. Mas 
 
 Como pode-se ver no site no [link](https://padrepauloricardo.org/episodios/nao-se-deixe-levar-pelos-gnosticos-de-hoje), o Padre Paulo Ricardo afirma que:
 
-+ *"**Santo Irineu** se deu ao trabalho de **fazer a lista dos Papas** para **mostrar que nossa fé vem desde São Pedro**, passando para Lino, Cleto, Clemente, e **assim sucessivamente, de modo que aquilo que um ensinou os outros ensinaram e continuam ensinando**."*
++ "***Santo Irineu** se deu ao trabalho de **fazer a lista dos Papas** para **mostrar que nossa fé vem desde São Pedro**, passando para Lino, Cleto, Clemente, e **assim sucessivamente, de modo que aquilo que um ensinou os outros ensinaram e continuam ensinando**."*
 
 Ou seja, membros oficiais da Igreja Romana, inclusive um membro muito renomado no catolicismo no Brasil defendem o que irei contra-argumentar. Não estarei então atacando um espantalho, mas um argumento real dos católicos romanos, que muitos por ele são seduzidos. 
 
