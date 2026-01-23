@@ -159,13 +159,13 @@ Há pais da Igreja que defendiam Pré-Milenismo, como houve quem defendesse amil
 
 ### Posição de Justino Mártir - Pré-Milenismo | Século II
 
-+ [Díalogo com Trifão](https://www.newadvent.org/fathers/01286.htm)
+/ [Díalogo com Trifão](https://www.newadvent.org/fathers/01286.htm)
 
 O Justino mártir, já defendia em pleno século II (século segundo) a existência de um milênio físico de 1000 anos após a volta de Cristo, demonstrando que o pré-milenarismo era uma crença comum de sua época, era a majoritária. Resumidamente pré-milenarismo é a crença de que haverá um milênio físico de 1000 anos conforme dito em Apocalipse 20:6, mas que Jesus virá buscar a sua Igreja antes desse milênio, pessoalmente é a que eu acredito, e é defendida por Justino nos capítulos 80 e 81 de seu Diálogo com Trifão.
 
 ### Posição de Orígenes de Alexandria - Amilenismo | Século III
 
-+ [De Principiis](https://www.newadvent.org/fathers/04122.htm)
+/ [De Principiis](https://www.newadvent.org/fathers/04122.htm)
 
 Já Orígenes defendia algo mais próximo do amilenismo. Ele acreditava que a ressurreição era espiritual e em momentos como quando Jesus disse para cear com os irmãos até a volta de Cristo, não era porquê cearíamos com Jesus fisicamente, mas sim que tinha algum significado espiritual, dá mesma forma que o milênio não era literal mas possuía um significado espiritual, assim como não acreditava que a Nova Jerusalém era uma cidade física feita com pedras preciosas, conforme consta em De Principiis, II.11.2.
 (**De Principiis, II.11.2 = Livro 2, Capítulo 11, Seção 2.**)
@@ -177,7 +177,7 @@ Outro tema que havia certa discordância era sobre a alma, se era imortal ou nã
 
 ### Posição de Justino Mártir - Mortalismo | Século II
 
-+ [Díalogo com Trifão](https://www.newadvent.org/fathers/01286.htm)
+/ [Díalogo com Trifão](https://www.newadvent.org/fathers/01286.htm)
 
  No mesmo escrito de Justino que acabei de mencionar anteriormente, ele defende mortalismo em seu Diálogo com Trifão, nos capítulos 80 e 81, dizendo basicamente *"Aos que negam a ressurreição, e acreditam que após a alma morrer, esta é levada para o céu, não imagine que eles são Cristãos"*.
 
@@ -187,7 +187,7 @@ Justino não foi contra a ideia da alma morrer, mas sim sobre a concepção do q
 
 ### Posição de Eusébio de Cesareia - Imortalismo | Século III à IV
 
-+ [História Eclesiástica](https://www.newadvent.org/fathers/250106.htm)
+/ [História Eclesiástica](https://www.newadvent.org/fathers/250106.htm)
 
 Na História Eclesiástica Livro 6, capítulo 37, Eusébio de Cesareia diz que surgiu na Arábia uma falsa doutrina de que a alma morria junto com o corpo mas que reviverá junto com o corpo na ressurreição. Curioso que Orígenes, o mesmo que defendeu Amilenismo que acabamos de ver anteriormente é diretamente citado, como discursando sobre o tema para convencer os demais que a mortalidade da alma era uma doutrina falsa.
 

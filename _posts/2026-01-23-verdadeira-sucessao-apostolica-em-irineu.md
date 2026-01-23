@@ -34,7 +34,7 @@ Não há necessariamente um consenso universal entre os católicos romanos. Mas 
 
 Como pode-se ver no site no [link](https://padrepauloricardo.org/episodios/nao-se-deixe-levar-pelos-gnosticos-de-hoje), o Padre Paulo Ricardo afirma que:
 
-+ "***Santo Irineu** se deu ao trabalho de **fazer a lista dos Papas** para **mostrar que nossa fé vem desde São Pedro**, passando para Lino, Cleto, Clemente, e **assim sucessivamente, de modo que aquilo que um ensinou os outros ensinaram e continuam ensinando**."*
+/ "***Santo Irineu** se deu ao trabalho de **fazer a lista dos Papas** para **mostrar que nossa fé vem desde São Pedro**, passando para Lino, Cleto, Clemente, e **assim sucessivamente, de modo que aquilo que um ensinou os outros ensinaram e continuam ensinando**."*
 
 Ou seja, membros oficiais da Igreja Romana, inclusive um membro muito renomado no catolicismo no Brasil defendem o que irei contra-argumentar. Não estarei então atacando um espantalho, mas um argumento real dos católicos romanos, que muitos por ele são seduzidos. 
 
@@ -50,7 +50,7 @@ O contexto desse livro, trata de Irineu que viveu entre o século II, **defenden
 
 Eu traduzi o 3º capítulo de Contra as Heresias III do New Advent para o português usando o Chat GPT, pedindo para que ele traduzisse sem nenhum viés, e não a colocarei aqui por razões óbvias. Não é recomendado eu sair divulgando uma tradução de algo que não tenho direitos autorais (tradução New Advent).
 
-+ Segue abaixo o link para a tradução do New Advent para que vocês chequem e traduzam para consulta caso necessário.
+/ Segue abaixo o link para a tradução do New Advent para que vocês chequem e traduzam para consulta caso necessário.
 
 [Contra as Heresias Livro 3, Capítulo 3](https://www.newadvent.org/fathers/0103303.htm)
 

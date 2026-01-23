@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (texto.startsWith('-#')) {
       p.classList.add('referencia');
       p.textContent = texto.slice(2).trim();
-    } else if (texto.startsWith('+')) {
+    } else if (texto.startsWith('/')) {
       p.classList.add('citacao');
       p.textContent = texto.slice(1).trim();
     }
