@@ -20,7 +20,7 @@ tags: [
 permalink: /artigos/verdadeira-sucessao-apostolica-em-irineu/
 ---
 
-# {{ page.title }}?
+# {{ page.title }}
 
 <span class="autor-artigo">Autor {{ page.author }}.</span>
 
