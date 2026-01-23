@@ -112,7 +112,7 @@ Livre interpretação resumidamente é o conceito de que cada um pode e deve int
 
 De acordo com o Livre Exame, é dever de todo Cristão ler e examinar a Bíblia, **verificando por si mesmo** se as doutrinas e pregações são coerentes com as Sagradas Escrituras, combatendo possíveis adulterações da bíblia. 
 
-- 2 Timóteo 3:15
+2 Timóteo 3:15
 > *Porque desde criança você conhece as sagradas letras, que são capazes de torná-lo sábio para a salvação mediante a fé em Cristo Jesus. *
 
 Vemos que Timóteo quando criança, já tinha estudado as Sagradas Escrituras. A Bíblia é dita como capaz de tornar alguém sábio para a salvação mediante a fé em Jesus Cristo. Ele não fazia parte de nenhum clero e ainda assim se dedicava à examinação das Escrituras, que contribuiu bastante para ele entender o Evangelho e ter fé em Jesus Cristo. Em contrapartida, a Igreja Católica Romana em diversos períodos da história, proibiu as pessoas leigas, isto é, não participantes do clero, de terem acesso às Sagradas Escrituras e de lê-las.
