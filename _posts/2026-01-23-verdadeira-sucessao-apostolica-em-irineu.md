@@ -3,7 +3,7 @@ layout: post
 title: "A Verdadeira Sucessão Apostólica de Irineu Contra as Heresias 3, Capítulo 3"
 description: "Observa-se que um argumento católico romano muito recorrente para defender o papado é o terceiro livro de Irineu de Lyon, em seu terceiro capítulo, onde ele supostamente estaria traçando a sucessão dos papas, utilizando a igreja romana por conta de sua autoridade magisterial suprema. Contudo, a realidade se distancia severamente desta interpretação enviesada de Irineu, na tentativa de a qualquer custo, defender uma doutrina que não tem base na patrística, tratando-se de um desenvolvimento posterior. Portanto, o autor explicará neste artigo qual é o contexto deste livro e o argumento de Irineu, e suas implicações práticas."
 image: /refutacoes/imgs/catolicismo/irineudelyonsucessaopapal.jpg
-date: 2026-01-233
+date: 2026-01-23
 author: Rasyon Heneyah
 categories: [refutacoes, catolicismo, destaques]
 tags: [
