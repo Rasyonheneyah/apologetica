@@ -79,14 +79,14 @@ permalink: /refutacoes.html
         <!-- CATEGORIAS DE REFUTAÇÕES -->
 
         <section class="categoria-refutacoes">
-            <h2>Anti-Catolicismo</h2>
+            <h2>Catolicismo</h2>
             <p>Análises críticas das doutrinas, práticas e interpretações da Igreja Católica à luz da Bíblia.</p>
             <div class="artigos-lista">
                 {% assign encontrou = false %}
 
                 {% for post in site.posts %}
                 {% assign cats = post.categories %}
-                {% if cats contains "refutacoes" and cats contains "anticatolicismo" %}
+                {% if cats contains "refutacoes" and cats contains "catolicismo" %}
                 {% assign encontrou = true %}
                 <a href="{{ post.url | relative_url }}">
                     <article>
@@ -109,14 +109,14 @@ permalink: /refutacoes.html
         </section>
 
         <section class="categoria-refutacoes">
-            <h2>Anti-Ateísmo</h2>
+            <h2>Ateísmo</h2>
             <p>Respostas a argumentos ateus e análises sobre críticas à fé cristã.</p>
             <div class="artigos-lista">
                 {% assign encontrou = false %}
 
                 {% for post in site.posts %}
                 {% assign cats = post.categories %}
-                {% if cats contains "refutacoes" and cats contains "antiateismo" %}
+                {% if cats contains "refutacoes" and cats contains "ateismo" %}
                 {% assign encontrou = true %}
                 <a href="{{ post.url | relative_url }}">
                     <article>
@@ -139,14 +139,14 @@ permalink: /refutacoes.html
         </section>
 
         <section class="categoria-refutacoes">
-            <h2>Anti-Judaísmo</h2>
+            <h2>Judaísmo</h2>
             <p>Estudos e respostas sobre distorções ou interpretações divergentes do judaísmo em relação à fé cristã.</p>
                         <div class="artigos-lista">
                 {% assign encontrou = false %}
 
                 {% for post in site.posts %}
                 {% assign cats = post.categories %}
-                {% if cats contains "refutacoes" and cats contains "antijudaismo" %}
+                {% if cats contains "refutacoes" and cats contains "judaismo" %}
                 {% assign encontrou = true %}
                 <a href="{{ post.url | relative_url }}">
                     <article>
@@ -169,14 +169,14 @@ permalink: /refutacoes.html
         </section>
 
         <section class="categoria-refutacoes">
-            <h2>Anti-Islamismo</h2>
+            <h2>Islamismo</h2>
             <p>Refutações a doutrinas, crenças e práticas do Islã, analisadas à luz das Escrituras cristãs.</p>
             <div class="artigos-lista">
                 {% assign encontrou = false %}
 
                 {% for post in site.posts %}
                 {% assign cats = post.categories %}
-                {% if cats contains "refutacoes" and cats contains "antiislamismo" %}
+                {% if cats contains "refutacoes" and cats contains "islamismo" %}
                 {% assign encontrou = true %}
                 <a href="{{ post.url | relative_url }}">
                     <article>

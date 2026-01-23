@@ -5,7 +5,7 @@ description: "Observa-se que um argumento católico romano muito recorrente para
 image: /refutacoes/imgs/catolicismo/irineudelyonsucessaopapal.jpg
 date: 2026-01-233
 author: Rasyon Heneyah
-categories: [refutacoes, anticatolicismo, destaques]
+categories: [refutacoes, catolicismo, destaques]
 tags: [
   irineu-de-lyon,
   sucessao-apostolica,
