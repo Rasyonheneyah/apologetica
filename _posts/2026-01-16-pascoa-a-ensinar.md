@@ -12,7 +12,7 @@ permalink: /artigos/pascoa-a-ensinar/
 
 # O que a Páscoa tem a nos ensinar?
 
-<span class="autor-artigo">Autor {{ post.author }}.</span>
+<span class="autor-artigo">Autor {{ page.author }}.</span>
 
 *Coelhinho da páscoa, ovos de chocolate, guloseimas, doces, presentes, são todos elementos frequentemente associados à Páscoa, mas do que ela realmente se trata?*
 
