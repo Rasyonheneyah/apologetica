@@ -3,7 +3,7 @@ layout: post
 title: "O que a Páscoa tem a nos ensinar"
 description: "Estudo bíblico sobre o significado da Páscoa, sua conexão com a nova aliança e a Ceia do Senhor."
 image: /artigos/imgs/artecruzdecristo.jpg
-date: 2026-01-17
+date: 2026-01-16
 author: Rasyon Heneyah
 categories: [artigos, datas, destaques]
 tags: [páscoa, ceia, cordero, jesus, bíblia, estudo]
