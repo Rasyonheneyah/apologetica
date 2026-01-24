@@ -6,7 +6,7 @@ image: /refutacoes/imgs/catolicismo/purgatoriopecadosmortaisveniais.png
 date: 2026-01-23
 author: Rasyon Heneyah
 
-categories: [refutacoes, catolicismo]
+categories: [refutacoes, catolicismo, destaques]
 
 tags:
   - pecados-mortais
