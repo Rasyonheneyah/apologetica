@@ -22,7 +22,7 @@ permalink: /artigos/verdadeira-sucessao-apostolica-em-irineu/
 
 # {{ page.title }}
 
-<span class="autor-artigo">Autor {{ page.author }}.</span>
+<span class="autor-artigo">Autor {{ page.author }}</span>
 
 Observa-se que um argumento católico romano muito recorrente para defender o papado é o terceiro livro de Irineu de Lyon, em seu terceiro capítulo, onde ele supostamente estaria traçando a sucessão dos papas, utilizando a igreja romana por conta de sua autoridade magisterial suprema. Contudo, a realidade se distancia severamente desta interpretação enviesada de Irineu, na tentativa de a qualquer custo, defender uma doutrina que não tem base na patrística, tratando-se de um desenvolvimento posterior. Portanto, o autor explicará neste artigo qual é o contexto deste livro e o argumento de Irineu, e suas implicações práticas.
 

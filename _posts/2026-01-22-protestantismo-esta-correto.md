@@ -12,7 +12,7 @@ permalink: /artigos/protestantismo-esta-correto/
 
 # O porquê o Protestantismo é a vertente correta
 
-<span class="autor-artigo">Autor: {{ page.author }}.</span>
+<span class="autor-artigo">Autor: {{ page.author }}</span>
 
 *Este artigo visa demonstrar o porquê o protestantismo é a vertente correta do cristianismo, abordando temas como Sola Fide, Sola Scriptura, o que é a Igreja de fato, livre exame, e as divergências que existem no protestantismo. Basicamente, tratando de pontos principais levantados para tentar descredibilizar o protestantismo, revelando que na verdade o protestantismo é mais coerente com as Sagradas Escrituras, portanto, a mais próxima da tradição apostólica. Desejo uma boa leitura a todos vós.*
 
