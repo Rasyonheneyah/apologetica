@@ -23,7 +23,7 @@ permalink: /artigos/pascoa-a-ensinar/
 
 -# Ex 12;
 
-> Este rito apresenta inúmeros símbolos que se conectam com a nova aliança. Neste evento o Egito representa o mundo, Israel a Igreja do Messias, e um cordeiro foi sacrificado por todos nós, o Cordeiro Imaculado que tira o pecado do mundo. O pão sem fermento representa a ausência do pecado em Cristo, o sacrifício perfeito para o aperfeiçoamento permanente dos santos. As ervas amargas representam toda a amargura e sofrimento que Jesus precisou padecer por nós. 
+> Este rito apresenta inúmeros símbolos que se conectam com a nova aliança. Neste evento o Egito representa o mundo, Israel a Igreja do Messias, e um cordeiro foi sacrificado por todos nós, o Cordeiro Imaculado que tira o pecado do mundo.  O pão sem fermento uma vida de sinceridade e verdade.  As ervas amargas representam a amargura da servidão que marca o povo redimido e, à luz da cruz, apontam para o sofrimento que Cristo assume por esse povo ao tomar sobre si a maldição do pecado.
 
 -# 1Co 5.7-8; 1 Pe 1.19;
 
