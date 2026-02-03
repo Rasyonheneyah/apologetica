@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* ==========================
+   CSS DE IMPRESSÃO
+========================== */
+@media print {
+
+    /* CONFIGURAÇÃO DE PÁGINA (ABNT) */
+    @page {
+        size: A4;
+        margin-top: 3cm;
+        margin-left: 3cm;
+        margin-right: 2cm;
+        margin-bottom: 2cm;
+    }
+
+    /* RESET VISUAL */
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        border: none !important;
+    }
+
+    html, body {
+        background: #fff !important;
+        color: #000 !important;
+        font-family: "Times New Roman", serif;
+        font-size: 12pt;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* REMOVER ELEMENTOS NÃO ACADÊMICOS */
+    header,
+    nav,
+    footer,
+    .giscus {
+        display: none !important;
+    }
+
+    /* CONTEÚDO */
+    main#conteudo-cru {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+        border: none !important; /* REMOVE BORDA DOURADA */
+    }
+
+    /* TÍTULOS (ABNT SIMPLES) */
+    h1 {
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        margin: 24pt 0 18pt;
+        page-break-after: avoid;
+    }
+
+    h2 {
+        font-size: 14pt;
+        font-weight: bold;
+        text-align: left;
+        margin: 18pt 0 12pt;
+        page-break-after: avoid;
+    }
+
+    h3 {
+        font-size: 12pt;
+        font-weight: bold;
+        margin: 12pt 0 8pt;
+        page-break-after: avoid;
+    }
+
+    /* PARÁGRAFOS */
+    p {
+        text-align: justify;
+        text-indent: 1.25cm; /* ABNT */
+        margin: 0 0 12pt 0;
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* LISTAS */
+    ul, ol {
+        margin: 12pt 0 12pt 1.25cm;
+    }
+
+    li {
+        margin-bottom: 6pt;
+        font-size: 12pt;
+    }
+
+    /* CITAÇÕES EM BLOCO */
+    blockquote,
+    p.citacao,
+    p.referencia {
+        margin: 12pt 0 12pt 4cm;
+        font-size: 10pt;
+        font-style: normal;
+    }
+
+    /* IMAGENS */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 12pt auto;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* LINKS (ABNT) */
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 10pt;
+    }
+}
