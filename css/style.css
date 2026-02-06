@@ -305,7 +305,7 @@ ul.abas-lista{
     
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 8;  /* ajuste fino */
+    -webkit-line-clamp: 7;  /* ajuste fino */
     
     text-overflow: ellipsis;
 }
