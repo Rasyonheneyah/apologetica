@@ -299,6 +299,15 @@ ul.abas-lista{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.7;
+
+    flex: 1;                /* ocupa só o espaço disponível */
+    overflow: hidden;       /* impede crescer pra baixo */
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;  /* ajuste fino */
+    
+    text-overflow: ellipsis;
 }
 
 .autor-artigo {

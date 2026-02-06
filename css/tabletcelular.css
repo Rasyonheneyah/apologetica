@@ -32,6 +32,9 @@
 
     .artigo-conteudo p {
         font-size: 0.98rem;
+        -webkit-line-clamp: unset;
+        overflow: visible;
     }
+       
 }
 
