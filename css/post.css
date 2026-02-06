@@ -67,7 +67,7 @@ main ol li::marker {
 /* ==========================
    LINKS
 ========================== */
-main a {
+main#conteudo-cru a {
     color: #7FAFCF;
     text-decoration: underline;
     transition: color 0.2s;

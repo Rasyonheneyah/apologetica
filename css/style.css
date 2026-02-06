@@ -41,6 +41,10 @@ body {
     line-height: 1.7;
 }
 
+a{
+    text-decoration: none;
+}
+
 .show{
     display: flex !important;
 }
@@ -93,7 +97,6 @@ nav {
 
 nav a {
     color: #7FAFCF;
-    text-decoration: none;
     margin: 0 14px;
     font-weight: bold;
 }
@@ -306,6 +309,5 @@ ul.abas-lista{
 
 
 ul li a {
-    text-decoration: none;
     color: #C9A44C;
 }
