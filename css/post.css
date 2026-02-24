@@ -128,6 +128,64 @@ p.referencia {
     line-height: 2;
 }
 
+
+/* ==========================
+   TABELAS (POSTS)
+========================== */
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: #1E3A4C;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(201, 164, 76, 0.15);
+}
+
+/* Cabeçalho */
+main thead {
+    background-color: #142B3B;
+}
+
+main thead th {
+    color: #C9A44C;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 14px;
+    text-align: left;
+    border-bottom: 2px solid #C9A44C;
+}
+
+/* Células */
+main th,
+main td {
+    padding: 12px 14px;
+    text-align: left;
+}
+
+/* Linhas */
+main tbody tr {
+    border-bottom: 1px solid rgba(201, 164, 76, 0.2);
+}
+
+main tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* Hover suave */
+main tbody tr:hover {
+    background-color: rgba(201, 164, 76, 0.08);
+}
+
+/* Texto dentro da tabela */
+main td {
+    color: #EAEAEA;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
 /* ==========================
    RESPONSIVIDADE
 ========================== */
@@ -148,4 +206,12 @@ p.referencia {
         font-size: 1rem;
         line-height: 1.8;
     }
+
+    
+    main table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
 }
