@@ -56,7 +56,7 @@ Eu traduzi o 3º capítulo de Contra as Heresias III do New Advent para o portug
 
 ## Os Gnósticos
 
-Existem muitas correntes dentro do gnosticismo. Irineu de Lyon estava contra-argumentando especificamente **contra a corrente do gnosticismo valentiniano**, que dividia a humanidade em três principais grupos: *os hílicos, os psíquicos e os pneumáticos*.
+Existem muitas correntes dentro do gnosticismo. Irineu de Lyon estava contra-argumentando principalmente neste livro **contra a corrente do gnosticismo valentiniano**, que dividia a humanidade em três principais grupos: *os hílicos, os psíquicos e os pneumáticos*.
 Os *hílicos* seriam a *maior parte da humanidade*. Aprisionados na matéria, incapazes de obter a gnose, e entregados à suas paixões. destinados à perdição ou dissolução, *sem acesso à salvação espiritual*.
 Os *psíquicos* são pessoas *incapazes de alcançar a gnose plena*. Embora consigam ter fé, seguir uma religião e uma moral, *apenas conseguem uma salvação inferior*. Estes precisariam de obras e disciplina para serem salvos por sua natureza ser a psíquica. Seriam a igreja visível e os cristãos comuns.
 Os *pneumáticos* seriam *os espirituais*. Os *únicos que possuem a gnose*. **São salvos por natureza pelo conhecimento secreto que obtiveram**. as leis morais não são determinantes para sua salvação.
