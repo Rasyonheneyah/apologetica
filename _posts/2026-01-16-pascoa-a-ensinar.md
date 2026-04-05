@@ -2,10 +2,10 @@
 layout: post
 title: "O que a Páscoa tem a nos ensinar"
 description: "Estudo bíblico sobre o significado da Páscoa, sua conexão com a nova aliança e a Ceia do Senhor."
-image: /artigos/imgs/artecruzdecristo.png
+image: /artigos/imgs/artecruzdecristo.jpg
 date: 2026-01-16
 author: Rasyon Heneyah
-categories: [artigos, datas, destaques]
+categories: [artigos, datas]
 tags: [páscoa, ceia, cordero, jesus, bíblia, estudo]
 permalink: /artigos/pascoa-a-ensinar/
 ---
@@ -16,7 +16,7 @@ permalink: /artigos/pascoa-a-ensinar/
 
 *Coelhinho da páscoa, ovos de chocolate, guloseimas, doces, presentes, são todos elementos frequentemente associados à Páscoa, mas do que ela realmente se trata?*
 
-![Cruz de Cristo](/artigos/imgs/artecruzdecristo.png)
+![Cruz de Cristo](/artigos/imgs/artecruzdecristo.jpg)
 
 
 > A Páscoa é uma festa religiosa, que se originou no Egito, antes do Senhor aplicar a décima praga contra os egípcios. Nela os israelitas sacrificaram um cordeiro sem defeito por família, passaram o sangue do cordeiro nas ombreiras e na verga da porta e comeram o *cordeiro, pães asmos e ervas amargas* às pressas já preparados para saírem, pois após Deus castigar com a morte de todos os primogênitos do Egito que não passaram o sangue, o povo de Israel finalmente foi liberto do Egito. Este é o sacrifício da Páscoa ao Senhor, comemoração de quando os israelitas foram livrados do castigo divino que sobreveio ao Egito.
