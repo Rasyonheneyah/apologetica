@@ -47,6 +47,7 @@ permalink: /artigos/pascoa-a-ensinar/
 
 -# 1 Co 11.25; 2 Co 3.4-12
 
+
 > Quando segurava o pão, e o cálice, nosso Mestre nos alertou, para que façamos em memória dEle. Nós precisamos nos atentarmos para O colocar no centro de nossas vidas sempre, pois muitas vezes o mundo nos apresenta muitas distrações para desviar nossos olhos da cruz, da nossa própria cruz e da cruz de Cristo. Portanto, que ofereçamos nossa vida em sacrifício vivo, santo e agradável à Deus, que pagou por nós um preço imensurável que jamais poderíamos retribuir. Graça e paz à todos que leram até o final, feliz Páscoa!
 
 -# 1 Co 11.24-25; 1 Pe 2.4-7; Lc 9.23; Rm 12.1;
